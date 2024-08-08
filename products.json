@@ -1,0 +1,69 @@
+
+[
+    {
+      "ProductName": "Comfort Fit T-Shirt",
+      "StyleNo": "CT1001",
+      "BrandName": "UrbanWear",
+      "SKU": "UW-TSHIRT-BLK-M",
+      "ColourName": "Black",
+      "Size": "Medium",
+      "Season": "Spring 2024",
+      "MSRP": "29.99",
+      "MaterialsUsed": "100% Cotton",
+      "TotalNumberOfProductsWithIDs": 500,
+      "TypeOfDigitalID": "QR Code"
+    },
+    {
+      "ProductName": "Denim Jacket",
+      "StyleNo": "DJ2003",
+      "BrandName": "StreetStyle",
+      "SKU": "SS-JKT-BLU-L",
+      "ColourName": "Blue",
+      "Size": "Large",
+      "Season": "Fall 2023",
+      "MSRP": "89.99",
+      "MaterialsUsed": "Denim, Polyester",
+      "TotalNumberOfProductsWithIDs": 300,
+      "TypeOfDigitalID": "QR Code"
+    },
+    {
+      "ProductName": "Running Sneakers",
+      "StyleNo": "RS3005",
+      "BrandName": "ActiveGear",
+      "SKU": "AG-SNKRS-WHT-9",
+      "ColourName": "White",
+      "Size": "9",
+      "Season": "Summer 2024",
+      "MSRP": "120.00",
+      "MaterialsUsed": "Mesh, Rubber",
+      "TotalNumberOfProductsWithIDs": 800,
+      "TypeOfDigitalID": "QR Code"
+    },
+    {
+      "ProductName": "Wool Scarf",
+      "StyleNo": "WS4007",
+      "BrandName": "WinterLux",
+      "SKU": "WL-SCF-GRY-OS",
+      "ColourName": "Grey",
+      "Size": "One Size",
+      "Season": "Winter 2024",
+      "MSRP": "45.00",
+      "MaterialsUsed": "100% Wool",
+      "TotalNumberOfProductsWithIDs": 150,
+      "TypeOfDigitalID": "QR Code"
+    },
+    {
+      "ProductName": "Leather Belt",
+      "StyleNo": "LB5009",
+      "BrandName": "ClassicLeather",
+      "SKU": "CL-BELT-BRN-32",
+      "ColourName": "Brown",
+      "Size": "32",
+      "Season": "All Seasons",
+      "MSRP": "39.99",
+      "MaterialsUsed": "Leather, Metal Buckle",
+      "TotalNumberOfProductsWithIDs": 250,
+      "TypeOfDigitalID": "QR Code"
+    }
+  ]
+  
