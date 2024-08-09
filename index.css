@@ -120,7 +120,7 @@ body {
   text-align: center;
   font-weight: 900;
   color: black;
-  margin-top: -130px;
+  margin-top: 70px 0px;
   animation: fadeIn 0.5s ease forwards;
 }
 
@@ -129,12 +129,15 @@ body {
   margin-bottom: 15px;
 }
 
-.product-lifestyle p {
-  margin: 10px 0;
-  font-size: 25px;
+.product-lifestyle-list {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 70%;
+  list-style: none;
+  padding: 30px 0;
+
 }
 
 .product-lifestyle .price {
@@ -153,11 +156,12 @@ body {
 .double-sided-arrow {
   display: inline-block;
   width: 2px;
-  height: 300px;
+  height: 500px;
   background-color: black;
   position: relative;
   margin-left: 47px;
   margin-top: -10px;
+  border: 1px solid red;
 }
 
 .double-sided-arrow:before,
