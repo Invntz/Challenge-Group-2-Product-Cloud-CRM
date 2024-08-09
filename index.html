@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invntz Dashboard</title>
+    <link rel="stylesheet" href="css/productsearch.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,25 +49,38 @@
 
 
         <!-- DO not modify code above this line-->
-        <div class="main-content">
-
-            <!-- Team: Modify only within main-content-->
-
-
-
-            <!-- Hero -->
-            <div class="hero">
-                <div>
-                    <h1>Welcome to Invntz</h1>
-                    <p>Create, Shop, and Collaborate with the most Inventive Brands and Suppliers.</p>
-                </div>
+        
+    <div class="main-content" id="mainProduct">
+        <section class="sectionone">
+            <div class="headermain">
+                <h1 id="headerProduct">Products</h1>
             </div>
-
-
-
-            <!-- Additional content/cards as needed -->
-        </div>
+            <div class="searchbar">
+                <input class="searchinput" id="search-box" placeholder="Search by Product Name">
+                <button class="searchbutton" onclick="searchProduct()">Find Item</button>
+            </div>
+        </section>
+        <section class="sectiontwo">
+            <table class="producttable">
+                <tr>
+                   <th></th>
+                   <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Brand</th>
+                    <th>Price</th>
+                    <th>Materials Used</th>
+                    <th id="tagheaderr">Tags</th>
+                </tr>
+                <tbody id="product-table-body">
+                    <!-- Table rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </section>
     </div>
+
+
+
+<script src="js/productsearch.js"></script>
 
 </body>
 
