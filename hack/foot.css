@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Mooli&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(135deg, #00A7E1, #00A7E1);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(135deg, #00A7E1, #d5d0d0);
+  color: black;
+  transition: background 0.3s ease;
+}
+
+.header:hover {
+  background: linear-gradient(135deg, #3b3b3b, #c2c2c2);
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header a:hover {
+  color: #f0e68c;
+}
+
+.product-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #a9a4a4, #8b8686);
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  min-height: 400px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.product-section:hover {
+  background: linear-gradient(135deg, #9a9696, #7b7575);
+  transform: translateY(-2px);
+}
+
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  text-align: center;
+  margin-bottom: 200px;
+  color: black;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.product-info h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.product-info p {
+  font-size: 18px;
+}
+
+.qr-code {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.qr-code img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.product-image img {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  margin-left: -120px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.product-image img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.right-column {
+  flex: 1;
+  position: relative;
+  display: flex;
+  gap: 10%;
+  margin-left: 20px;
+}
+
+.product-lifestyle {
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  margin-top: -130px;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.product-lifestyle h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.product-lifestyle p {
+  margin: 10px 0;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.product-lifestyle .price {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.product-lifestyle .price-1 {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -12px;
+}
+
+.double-sided-arrow {
+  display: inline-block;
+  width: 2px;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  margin-left: 47px;
+  margin-top: -10px;
+}
+
+.double-sided-arrow:before,
+.double-sided-arrow:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  transform: translateX(-50%);
+}
+
+.double-sided-arrow:before {
+  top: -14px;
+  border-bottom: 7px solid black;
+}
+
+.double-sided-arrow:after {
+  bottom: -14px;
+  border-top: 7px solid black;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-column,
+  .right-column,
+  .product-image {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-section {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .product-info h2,
+  .product-lifestyle h2 {
+    font-size: 22px;
+  }
+
+  .list {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
