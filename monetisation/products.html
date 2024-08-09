@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Summary Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMNs54O6hLaoWxCIPGr5FQQ5ELj2FjEjq/BaSTs" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #00A7E1;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .summary {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .summary p {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Products Summary</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Digital ID</th>
+                    <th>Date Generated</th>
+                    <th>Style No</th>
+                    <th>Brand Name</th>
+                    <th>SKU</th>
+                    <th>Colour</th>
+                    <th>Size</th>
+                    <th>Season</th>
+                    <th>MSRP/RRP</th>
+                    <th>Materials Used</th>
+                    <th>Number of Products</th>
+                    <th>Digital ID Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>T-shirt</td>
+                    <td>12345ABC</td>
+                    <td>2024-08-01</td>
+                    <td>TSH123</td>
+                    <td>BrandX</td>
+                    <td>BRX-TSH123-001</td>
+                    <td>Red</td>
+                    <td>M</td>
+                    <td>Summer</td>
+                    <td>$29.99</td>
+                    <td>Cotton</td>
+                    <td>100</td>
+                    <td>QR Code</td>
+                </tr>
+                <tr>
+                    <td>Sneakers</td>
+                    <td>67890XYZ</td>
+                    <td>2024-07-15</td>
+                    <td>SNK456</td>
+                    <td>BrandY</td>
+                    <td>BRY-SNK456-002</td>
+                    <td>Black</td>
+                    <td>42</td>
+                    <td>Spring</td>
+                    <td>$89.99</td>
+                    <td>Leather, Rubber</td>
+                    <td>50</td>
+                    <td>NFC Tag</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        <div class="summary">
+            <p>Total Number of Products with IDs: 150</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
