@@ -1,0 +1,344 @@
+{
+    "fashion_items": [
+        {
+            "product_creation": {
+                "id": "001",
+                "year": 2023,
+                "season": "Summer",
+                "location": "New York, USA",
+                "image": "https://example.com/images/product1.jpg",
+                "thumbnail": "https://example.com/thumbnails/product1_thumb.jpg",
+                "price": 120.00,
+                "description": "A sleek and stylish leather jacket for any occasion.",
+                "name": "Leather Jacket",
+                "brand": "UrbanWear",
+                "material_used": "Genuine Leather"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Summer",
+                "location": "Los Angeles, USA"
+            },
+            "resold": [
+                {
+                    "price": 100.00,
+                    "location": "San Francisco, USA",
+                    "year": 2024,
+                    "season": "Winter"
+                },
+                {
+                    "price": 95.00,
+                    "location": "Seattle, USA",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 110.00,
+                    "location": "Boston, USA",
+                    "year": 2024,
+                    "season": "Autumn"
+                }
+            ],
+            "royalty": {
+                "percentage": 10
+            },
+            "tags": {
+                "offers": [
+                    "20% off",
+                    "free dry cleaning"
+                ]
+            }
+        },
+        {
+            "product_creation": {
+                "id": "002",
+                "year": 2023,
+                "season": "Summer",
+                "location": "Milan, Italy",
+                "image": "https://example.com/images/product2.jpg",
+                "thumbnail": "https://example.com/thumbnails/product2_thumb.jpg",
+                "price": 250.00,
+                "description": "A luxurious silk scarf with intricate patterns.",
+                "name": "Silk Scarf",
+                "brand": "Elegance Couture",
+                "material_used": "100% Silk"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Summer",
+                "location": "Paris, France"
+            },
+            "resold": [
+                {
+                    "price": 220.00,
+                    "location": "London, UK",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 210.00,
+                    "location": "Berlin, Germany",
+                    "year": 2024,
+                    "season": "Summer"
+                },
+                {
+                    "price": 200.00,
+                    "location": "Amsterdam, Netherlands",
+                    "year": 2024,
+                    "season": "Autumn"
+                },
+                {
+                    "price": 180.00,
+                    "location": "New York, USA",
+                    "year": 2024,
+                    "season": "Winter"
+                }
+            ],
+            "royalty": {
+                "percentage": 12
+            },
+            "tags": {
+                "offers": [
+                    "50% off dry cleaning",
+                    "free laundry"
+                ]
+            }
+        },
+        {
+            "product_creation": {
+                "id": "003",
+                "year": 2023,
+                "season": "Autumn",
+                "location": "Tokyo, Japan",
+                "image": "https://example.com/images/product3.jpg",
+                "thumbnail": "https://example.com/thumbnails/product3_thumb.jpg",
+                "price": 90.00,
+                "description": "A trendy denim jacket perfect for casual wear.",
+                "name": "Denim Jacket",
+                "brand": "Tokyo Trends",
+                "material_used": "Denim"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Autumn",
+                "location": "Seoul, South Korea"
+            },
+            "resold": [
+                {
+                    "price": 80.00,
+                    "location": "Beijing, China",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 85.00,
+                    "location": "Hong Kong",
+                    "year": 2024,
+                    "season": "Summer"
+                },
+                {
+                    "price": 75.00,
+                    "location": "Singapore",
+                    "year": 2024,
+                    "season": "Autumn"
+                }
+            ],
+            "royalty": {
+                "percentage": 8
+            },
+            "tags": {
+                "offers": [
+                    "20% off",
+                    "free laundry"
+                ]
+            }
+        },
+        {
+            "product_creation": {
+                "id": "004",
+                "year": 2023,
+                "season": "Autumn",
+                "location": "London, UK",
+                "image": "https://example.com/images/product4.jpg",
+                "thumbnail": "https://example.com/thumbnails/product4_thumb.jpg",
+                "price": 75.00,
+                "description": "A pair of comfortable yet stylish sneakers.",
+                "name": "Casual Sneakers",
+                "brand": "StreetStyle",
+                "material_used": "Synthetic Leather, Rubber"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Autumn",
+                "location": "Berlin, Germany"
+            },
+            "resold": [
+                {
+                    "price": 65.00,
+                    "location": "Amsterdam, Netherlands",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 70.00,
+                    "location": "Brussels, Belgium",
+                    "year": 2024,
+                    "season": "Summer"
+                }
+            ],
+            "royalty": {
+                "percentage": 7
+            },
+            "tags": {
+                "offers": [
+                    "free dry cleaning"
+                ]
+            }
+        },
+        {
+            "product_creation": {
+                "id": "005",
+                "year": 2023,
+                "season": "Autumn",
+                "location": "Paris, France",
+                "image": "https://example.com/images/product5.jpg",
+                "thumbnail": "https://example.com/thumbnails/product5_thumb.jpg",
+                "price": 200.00,
+                "description": "A classic trench coat that never goes out of style.",
+                "name": "Trench Coat",
+                "brand": "Parisian Chic",
+                "material_used": "Cotton, Polyester"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Autumn",
+                "location": "Rome, Italy"
+            },
+            "resold": [
+                {
+                    "price": 180.00,
+                    "location": "Madrid, Spain",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 170.00,
+                    "location": "Lisbon, Portugal",
+                    "year": 2024,
+                    "season": "Summer"
+                },
+                {
+                    "price": 160.00,
+                    "location": "Stockholm, Sweden",
+                    "year": 2024,
+                    "season": "Autumn"
+                }
+            ],
+            "royalty": {
+                "percentage": 15
+            },
+            "tags": {
+                "offers": [
+                    "20% off"
+                ]
+            }
+        },
+        {
+            "product_creation": {
+                "id": "006",
+                "year": 2023,
+                "season": "Winter",
+                "location": "Los Angeles, USA",
+                "image": "https://example.com/images/product6.jpg",
+                "thumbnail": "https://example.com/thumbnails/product6_thumb.jpg",
+                "price": 180.00,
+                "description": "A pair of designer sunglasses with UV protection.",
+                "name": "Designer Sunglasses",
+                "brand": "SunStyle",
+                "material_used": "Plastic, Glass"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Winter",
+                "location": "Miami, USA"
+            },
+            "resold": [
+                {
+                    "price": 160.00,
+                    "location": "Chicago, USA",
+                    "year": 2024,
+                    "season": "Summer"
+                },
+                {
+                    "price": 155.00,
+                    "location": "Houston, USA",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 165.00,
+                    "location": "Dallas, USA",
+                    "year": 2024,
+                    "season": "Autumn"
+                }
+            ],
+            "royalty": {
+                "percentage": 10
+            },
+            "tags": {
+                "offers": [
+                    "free laundry",
+                    "50% off dry cleaning"
+                ]
+            }
+        },
+        {
+            "product_creation": {
+                "id": "007",
+                "year": 2023,
+                "season": "Winter",
+                "location": "Barcelona, Spain",
+                "image": "https://example.com/images/product7.jpg",
+                "thumbnail": "https://example.com/thumbnails/product7_thumb.jpg",
+                "price": 150.00,
+                "description": "A beautiful evening gown perfect for formal events.",
+                "name": "Evening Gown",
+                "brand": "Glamour Fashion",
+                "material_used": "Satin, Lace"
+            },
+            "purchase": {
+                "year": 2023,
+                "season": "Winter",
+                "location": "Vienna, Austria"
+            },
+            "resold": [
+                {
+                    "price": 130.00,
+                    "location": "Zurich, Switzerland",
+                    "year": 2024,
+                    "season": "Summer"
+                },
+                {
+                    "price": 140.00,
+                    "location": "Munich, Germany",
+                    "year": 2024,
+                    "season": "Spring"
+                },
+                {
+                    "price": 120.00,
+                    "location": "Paris, France",
+                    "year": 2024,
+                    "season": "Autumn"
+                }
+            ],
+            "royalty": {
+                "percentage": 14
+            },
+            "tags": {
+                "offers": [
+                    "free dry cleaning"
+                ]
+            }
+        }
+    ]
+}

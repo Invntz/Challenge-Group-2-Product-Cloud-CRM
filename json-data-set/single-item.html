@@ -1,0 +1,96 @@
+<!-- Smeena: Single product item display from json file -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Fashion Item</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .fashion-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            background: #fff;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .fashion-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .fashion-item h2 {
+            margin: 0 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="fashion-item-container" class="fashion-item"></div>
+
+    <script>
+        // AJAX Request to Fetch the JSON Data
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', 'fashion_items.json', true); // Replace with the correct path to your JSON file
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                const fashionItems = JSON.parse(xhr.responseText);
+                displayRandomFashionItem(fashionItems.fashion_items);
+            } else {
+                console.error('Failed to load JSON data');
+            }
+        };
+
+        xhr.send();
+
+        // Function to Display a Random Fashion Item
+        function displayRandomFashionItem(items) {
+            const container = document.getElementById('fashion-item-container');
+
+            // Get a random index
+            const randomIndex = Math.floor(Math.random() * items.length);
+            const item = items[randomIndex];
+
+            // Generate HTML for the random item
+            container.innerHTML = `
+                <img src="${item.product_creation.thumbnail}" alt="${item.product_creation.name}">
+                <h2>${item.product_creation.name} (${item.product_creation.year} ${item.product_creation.season})</h2>
+                <p><strong>Brand:</strong> ${item.product_creation.brand}</p>
+                <p><strong>Price:</strong> £${item.product_creation.price}</p>
+                <p><strong>Location:</strong> ${item.product_creation.location}</p>
+                <p><strong>Description:</strong> ${item.product_creation.description}</p>
+                <p><strong>Material Used:</strong> ${item.product_creation.material_used}</p>
+                <p><strong>Purchase:</strong> ${item.purchase.year} ${item.purchase.season} in ${item.purchase.location}</p>
+                <div><strong>Resold:</strong></div>
+                ${item.resold.map(resold => `
+                    <div>
+                        <p><strong>Resold Price:</strong> £${resold.price}</p>
+                        <p><strong>Location:</strong> ${resold.location}</p>
+                        <p><strong>Year:</strong> ${resold.year}</p>
+                        <p><strong>Season:</strong> ${resold.season}</p>
+                    </div>
+                `).join('')}
+                <p><strong>Royalty Percentage:</strong> ${item.royalty.percentage}%</p>
+                <p><strong>Offers:</strong> ${item.tags.offers.join(', ')}</p>
+            `;
+        }
+    </script>
+</body>
+
+</html>
