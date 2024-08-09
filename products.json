@@ -1,6 +1,5 @@
-
 [
-    {
+  {
       "ProductName": "Comfort Fit T-Shirt",
       "StyleNo": "CT1001",
       "BrandName": "UrbanWear",
@@ -12,9 +11,11 @@
       "MaterialsUsed": "100% Cotton",
       "TotalNumberOfProductsWithIDs": 500,
       "TypeOfDigitalID": "QR Code",
-      "TagName": "New design"
-    },
-    {
+      "TagName": "New Design",
+      "ProductID": "10001",
+      "Image": "imagesearch.jpg"
+  },
+  {
       "ProductName": "Denim Jacket",
       "StyleNo": "DJ2003",
       "BrandName": "StreetStyle",
@@ -26,9 +27,11 @@
       "MaterialsUsed": "Denim, Polyester",
       "TotalNumberOfProductsWithIDs": 300,
       "TypeOfDigitalID": "QR Code",
-      "TagName": "Limited quantity"
-    },
-    {
+      "TagName": "Limited Edition",
+      "ProductID": "10002",
+      "Image": "imagesearch.jpg"
+  },
+  {
       "ProductName": "Running Sneakers",
       "StyleNo": "RS3005",
       "BrandName": "ActiveGear",
@@ -40,10 +43,11 @@
       "MaterialsUsed": "Mesh, Rubber",
       "TotalNumberOfProductsWithIDs": 800,
       "TypeOfDigitalID": "QR Code",
-      "TagName": "Limited quantity"
-
-    },
-    {
+      "TagName": "Limited Edition",
+      "ProductID": "10003",
+      "Image": "imagesearch.jpg"
+  },
+  {
       "ProductName": "Wool Scarf",
       "StyleNo": "WS4007",
       "BrandName": "WinterLux",
@@ -55,9 +59,11 @@
       "MaterialsUsed": "100% Wool",
       "TotalNumberOfProductsWithIDs": 150,
       "TypeOfDigitalID": "QR Code",
-      "TagName": "20% off if buying more than 20"
-    },
-    {
+      "TagName": "20% Off If Buying More Than 20",
+      "ProductID": "10004",
+      "Image": "imagesearch.jpg"
+  },
+  {
       "ProductName": "Leather Belt",
       "StyleNo": "LB5009",
       "BrandName": "ClassicLeather",
@@ -69,8 +75,248 @@
       "MaterialsUsed": "Leather, Metal Buckle",
       "TotalNumberOfProductsWithIDs": 250,
       "TypeOfDigitalID": "QR Code",
-      "TagName": "New design"
-     }
-    
-  ]
-  
+      "TagName": "New Design",
+      "ProductID": "10005",
+      "Image": "imagesearch.jpg"
+  },
+  {
+      "ProductName": "Casual Sneakers",
+      "StyleNo": "CS6001",
+      "BrandName": "UrbanWear",
+      "SKU": "UW-CS6001-WHT-10",
+      "ColourName": "White",
+      "Size": "10",
+      "Season": "Spring 2024",
+      "MSRP": "79.99",
+      "MaterialsUsed": "Canvas, Rubber",
+      "TotalNumberOfProductsWithIDs": 400,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Best Seller",
+      "ProductID": "10006",
+      "Image": "imagesearch.jpg"
+  },
+  {
+      "ProductName": "Slim Fit Jeans",
+      "StyleNo": "SF7002",
+      "BrandName": "StreetStyle",
+      "SKU": "SS-SF7002-BLK-32",
+      "ColourName": "Black",
+      "Size": "32",
+      "Season": "All Seasons",
+      "MSRP": "69.99",
+      "MaterialsUsed": "Denim, Spandex",
+      "TotalNumberOfProductsWithIDs": 350,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "20% Off If Buying More Than 20",
+      "ProductID": "10007",
+      "Image": "imagesearch.jpg"
+  },
+  {
+      "ProductName": "Leather Wallet",
+      "StyleNo": "LW8003",
+      "BrandName": "ClassicLeather",
+      "SKU": "CL-LW8003-BRN",
+      "ColourName": "Brown",
+      "Size": "One Size",
+      "Season": "All Seasons",
+      "MSRP": "49.99",
+      "MaterialsUsed": "Leather",
+      "TotalNumberOfProductsWithIDs": 500,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Best Seller",
+      "ProductID": "10008",
+      "Image": "imagesearch.jpg"
+  },
+  {
+      "ProductName": "Wool Beanie",
+      "StyleNo": "WB9004",
+      "BrandName": "WinterLux",
+      "SKU": "WL-WB9004-GRY",
+      "ColourName": "Grey",
+      "Size": "One Size",
+      "Season": "Winter 2024",
+      "MSRP": "25.00",
+      "MaterialsUsed": "100% Wool",
+      "TotalNumberOfProductsWithIDs": 200,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "New Design",
+      "ProductID": "10009",
+      "Image": "https://example.com/images/WL-WB9004-GRY.jpg"
+  },
+  {
+      "ProductName": "Running Shorts",
+      "StyleNo": "RS10005",
+      "BrandName": "ActiveGear",
+      "SKU": "AG-RS10005-BLK-M",
+      "ColourName": "Black",
+      "Size": "Medium",
+      "Season": "Summer 2024",
+      "MSRP": "35.00",
+      "MaterialsUsed": "Polyester, Spandex",
+      "TotalNumberOfProductsWithIDs": 600,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Limited Edition",
+      "ProductID": "10010",
+      "Image": "https://example.com/images/AG-RS10005-BLK-M.jpg"
+  },
+  {
+      "ProductName": "Graphic Hoodie",
+      "StyleNo": "GH11006",
+      "BrandName": "UrbanWear",
+      "SKU": "UW-GH11006-NVY-L",
+      "ColourName": "Navy",
+      "Size": "Large",
+      "Season": "Fall 2024",
+      "MSRP": "59.99",
+      "MaterialsUsed": "Cotton, Polyester",
+      "TotalNumberOfProductsWithIDs": 400,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "New Design",
+      "ProductID": "10011",
+      "Image": "https://example.com/images/UW-GH11006-NVY-L.jpg"
+  },
+  {
+      "ProductName": "Chino Pants",
+      "StyleNo": "CP12007",
+      "BrandName": "StreetStyle",
+      "SKU": "SS-CP12007-KHK-34",
+      "ColourName": "Khaki",
+      "Size": "34",
+      "Season": "All Seasons",
+      "MSRP": "59.99",
+      "MaterialsUsed": "Cotton, Polyester",
+      "TotalNumberOfProductsWithIDs": 300,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "20% Off If Buying More Than 20",
+      "ProductID": "10012",
+      "Image": "https://example.com/images/SS-CP12007-KHK-34.jpg"
+  },
+  {
+      "ProductName": "Rain Jacket",
+      "StyleNo": "RJ13008",
+      "BrandName": "ActiveGear",
+      "SKU": "AG-RJ13008-GRN-M",
+      "ColourName": "Green",
+      "Size": "Medium",
+      "Season": "Spring 2024",
+      "MSRP": "99.99",
+      "MaterialsUsed": "Nylon, Polyester",
+      "TotalNumberOfProductsWithIDs": 250,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "New Design",
+      "ProductID": "10013",
+      "Image": "https://example.com/images/AG-RJ13008-GRN-M.jpg"
+  },
+  {
+      "ProductName": "Wool Gloves",
+      "StyleNo": "WG14009",
+      "BrandName": "WinterLux",
+      "SKU": "WL-WG14009-BLK-M",
+      "ColourName": "Black",
+      "Size": "Medium",
+      "Season": "Winter 2024",
+      "MSRP": "30.00",
+      "MaterialsUsed": "100% Wool",
+      "TotalNumberOfProductsWithIDs": 300,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "20% Off If Buying More Than 20",
+      "ProductID": "10014",
+      "Image": "https://example.com/images/WL-WG14009-BLK-M.jpg"
+  },
+  {
+      "ProductName": "Leather Boots",
+      "StyleNo": "LB15010",
+      "BrandName": "ClassicLeather",
+      "SKU": "CL-LB15010-BRN-11",
+      "ColourName": "Brown",
+      "Size": "11",
+      "Season": "Fall 2024",
+      "MSRP": "150.00",
+      "MaterialsUsed": "Leather, Rubber Sole",
+      "TotalNumberOfProductsWithIDs": 100,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "20% Off If Buying More Than 20",
+      "ProductID": "10015",
+      "Image": "https://example.com/images/CL-LB15010-BRN-11.jpg"
+  },
+  {
+      "ProductName": "Fitness Tracker",
+      "StyleNo": "FT16011",
+      "BrandName": "ActiveGear",
+      "SKU": "AG-FT16011-BLK",
+      "ColourName": "Black",
+      "Size": "One Size",
+      "Season": "All Seasons",
+      "MSRP": "199.99",
+      "MaterialsUsed": "Silicone, Electronic Components",
+      "TotalNumberOfProductsWithIDs": 500,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Limited Edition",
+      "ProductID": "10016",
+      "Image": "https://example.com/images/AG-FT16011-BLK.jpg"
+  },
+  {
+      "ProductName": "Sunglasses",
+      "StyleNo": "SG17012",
+      "BrandName": "UrbanWear",
+      "SKU": "UW-SG17012-BLK",
+      "ColourName": "Black",
+      "Size": "One Size",
+      "Season": "Summer 2024",
+      "MSRP": "120.00",
+      "MaterialsUsed": "Plastic, Glass",
+      "TotalNumberOfProductsWithIDs": 350,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "New Design",
+      "ProductID": "10017",
+      "Image": "https://example.com/images/UW-SG17012-BLK.jpg"
+  },
+  {
+      "ProductName": "Winter Coat",
+      "StyleNo": "WC18013",
+      "BrandName": "WinterLux",
+      "SKU": "WL-WC18013-NVY-L",
+      "ColourName": "Navy",
+      "Size": "Large",
+      "Season": "Winter 2024",
+      "MSRP": "250.00",
+      "MaterialsUsed": "Wool, Polyester",
+      "TotalNumberOfProductsWithIDs": 100,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Best Seller",
+      "ProductID": "10018",
+      "Image": "https://example.com/images/WL-WC18013-NVY-L.jpg"
+  },
+  {
+      "ProductName": "Casual Shorts",
+      "StyleNo": "CS19014",
+      "BrandName": "StreetStyle",
+      "SKU": "SS-CS19014-KHK-32",
+      "ColourName": "Khaki",
+      "Size": "32",
+      "Season": "Summer 2024",
+      "MSRP": "45.00",
+      "MaterialsUsed": "Cotton, Polyester",
+      "TotalNumberOfProductsWithIDs": 300,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "20% Off If Buying More Than 20",
+      "ProductID": "10019",
+      "Image": "https://example.com/images/SS-CS19014-KHK-32.jpg"
+  },
+  {
+      "ProductName": "Leather Briefcase",
+      "StyleNo": "LB20015",
+      "BrandName": "ClassicLeather",
+      "SKU": "CL-LB20015-BLK",
+      "ColourName": "Black",
+      "Size": "One Size",
+      "Season": "All Seasons",
+      "MSRP": "299.99",
+      "MaterialsUsed": "Leather, Metal",
+      "TotalNumberOfProductsWithIDs": 150,
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Best Seller",
+      "ProductID": "10020",
+      "Image": "https://example.com/images/CL-LB20015-BLK.jpg"
+  }
+]
