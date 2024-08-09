@@ -242,6 +242,7 @@ tr {
 
 table td{
     text-align: center;
+    cursor: pointer;
 }
 
 .headermain{
@@ -282,4 +283,24 @@ table td{
 
 .imagesearch {
     width: 30px;
+}
+
+#tagtable{
+    display:flex;
+    margin-bottom: 0;
+    height: 100%;
+}
+#tagLi{
+    margin-right: 10px;
+    display: flex;
+    background-color: #fae633;
+    border-radius: 10px;
+    padding:5px 10px;
+    color: black;
+}
+
+
+#productImage {
+    width: 40px;
+    margin-right: -70%;
 }
