@@ -11,7 +11,8 @@
       "MSRP": "29.99",
       "MaterialsUsed": "100% Cotton",
       "TotalNumberOfProductsWithIDs": 500,
-      "TypeOfDigitalID": "QR Code"
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "New design"
     },
     {
       "ProductName": "Denim Jacket",
@@ -24,7 +25,8 @@
       "MSRP": "89.99",
       "MaterialsUsed": "Denim, Polyester",
       "TotalNumberOfProductsWithIDs": 300,
-      "TypeOfDigitalID": "QR Code"
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Limited quantity"
     },
     {
       "ProductName": "Running Sneakers",
@@ -37,7 +39,9 @@
       "MSRP": "120.00",
       "MaterialsUsed": "Mesh, Rubber",
       "TotalNumberOfProductsWithIDs": 800,
-      "TypeOfDigitalID": "QR Code"
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "Limited quantity"
+
     },
     {
       "ProductName": "Wool Scarf",
@@ -50,7 +54,8 @@
       "MSRP": "45.00",
       "MaterialsUsed": "100% Wool",
       "TotalNumberOfProductsWithIDs": 150,
-      "TypeOfDigitalID": "QR Code"
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "20% off if buying more than 20"
     },
     {
       "ProductName": "Leather Belt",
@@ -63,7 +68,9 @@
       "MSRP": "39.99",
       "MaterialsUsed": "Leather, Metal Buckle",
       "TotalNumberOfProductsWithIDs": 250,
-      "TypeOfDigitalID": "QR Code"
-    }
+      "TypeOfDigitalID": "QR Code",
+      "TagName": "New design"
+     }
+    
   ]
   
