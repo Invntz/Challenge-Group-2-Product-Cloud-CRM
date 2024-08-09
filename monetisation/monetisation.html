@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monetisation: Add + Customise Unique Utility</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMNs54O6hLaoWxCIPGr5FQQ5ELj2FjEjq/BaSTs" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #00A7E1;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            color: #00A7E1;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .utility-form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .form-group input[type="text"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        .form-group button {
+            background-color: #00A7E1;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .form-group button:hover {
+            background-color: #008BB5;
+        }
+
+        .info-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 40px;
+        }
+
+        .info-section i {
+            color: #00A7E1;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Monetisation</h1>
+        <h2>Customise your product</h2>
+
+        <p><strong>Assign monetisation incentives to your product's digital ID.</strong> Customise your own labels or
+            use the pre-built labels inside to tag products with unique offerings, such as discount offers, free
+            services, or special promotions.</p>
+
+        <p>Customers can access each product's utility by either scanning the digital ID on their physical product or
+            next to the item in their shopping cart.</p>
+
+        <div class="utility-form">
+            <h2 class="section-title">Customise Your Utility Label</h2>
+
+            <div class="form-group">
+                <label for="label-name">Label Name</label>
+                <input type="text" id="label-name" placeholder="Enter the name of your utility label">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" placeholder="Describe what this utility offers"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="label-type">Select Label Type</label>
+                <select id="label-type">
+                    <option value="discount">Discount Offer</option>
+                    <option value="service">Additional Service</option>
+                    <option value="promo">Promotional Offer</option>
+                    <option value="custom">Custom Label</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="button">Save Label</button>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2 class="section-title">How It Works</h2>
+            <p><i class="fas fa-info-circle"></i>Once you have customized or selected a label, you can assign it to the
+                product's digital ID. Customers will then be able to unlock these utilities by scanning the digital ID
+                on the product or in their shopping cart.</p>
+            <p><i class="fas fa-bell"></i>Make sure to test the digital ID on sample products before rolling out to your
+                entire inventory to ensure that the utilities are functioning as expected.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
