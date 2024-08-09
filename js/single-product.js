@@ -2,7 +2,7 @@
 
 // AJAX Request to Fetch the JSON Data
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'fashion_items.json', true); // Replace with the correct path to your JSON file
+xhr.open('GET', '../js/fashion_items.json', true); // Replace with the correct path to your JSON file
 
 xhr.onload = function () {
     if (xhr.status === 200) {
