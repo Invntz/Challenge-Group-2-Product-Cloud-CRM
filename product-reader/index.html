@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="logo.png" alt="Logo" />
+    </header>
+    <div class="main">
+      <div id="qr-reader"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        function onScanSuccess(qrCodeMessage) {
+          window.location.href = `product/${qrCodeMessage}`;
+        }
+
+        function onScanError(errorMessage) {
+          console.error(errorMessage);
+        }
+
+        const qrReader = new Html5Qrcode("qr-reader");
+
+        qrReader
+          .start(
+            { facingMode: "environment" },
+            {
+              fps: 10,
+              qrbox: { width: 250, height: 250 },
+            },
+            onScanSuccess,
+            onScanError
+          )
+          .catch((err) => {
+            console.error(err);
+          });
+      });
+    </script>
+  </body>
+</html>
