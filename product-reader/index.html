@@ -18,7 +18,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         function onScanSuccess(qrCodeMessage) {
-          window.location.href = `product/${qrCodeMessage}`;
+          window.location.href = `./product/index.html?product=${qrCodeMessage}`;
         }
 
         function onScanError(errorMessage) {
